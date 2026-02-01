@@ -14,7 +14,7 @@ export default function RootLayout() {
 				className="absolute -bottom-30 -left-30"
 			/>
 
-			<main className="min-h-screen px-5 border-4 border-dotted border-primary flex flex-col items-center justify-center">
+			<main className="min-h-screen p-5 border-4 border-dotted border-primary flex flex-col items-center justify-center">
 				<Outlet />
 			</main>
 		</div>
